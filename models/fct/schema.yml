@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: fct_orders2
+    description: "Final fact table for orders"
+    columns:
+      - name: order_id
+        tests:
+          - unique
+          - not_null
+      - name: customer_id
+        tests:
+          - not_null
+      - name: total_amount
+        tests:
+          - positive_number
