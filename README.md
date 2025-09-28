@@ -1,13 +1,12 @@
 # snowflake-dbt-demo
 
-## Project overview
-In this project, I want to showcase my skills in Snowflake and dbt...
+Project overview
+This is my first dbt demo and learning repository.
 
-## Tools used (Snowflake, dbt, GitHub)
+Tools used (Snowflake, dbt, GitHub)
+
+Project structure
 tbd
 
-## Project structure
-tbd
-
-## Instructions to reproduce
+Instructions to reproduce
 tbd
