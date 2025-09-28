@@ -1,5 +1,5 @@
 {{config(materialized='incremental', unqiue_key='order_id')}}
 select * from {{source('raw','orders')}}
 {%if is_incremental()%}
-where udpated_at > (select max(updated_at) from {{this}}
+where order_date > (select min(order_date) from {{this}})
 {%endif%}
